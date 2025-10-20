@@ -37,9 +37,11 @@
     width:200px;
     border-radius: 30px;
     border: 0px solid;
+    color: white;
     background-color: rgb(255, 153, 0);
+    transition: transform 0.5s;
 }
 
 .butaoo:hover {
-    padding: 12px 33px 12px 33px
+    transform: scale(1.1);
 }
